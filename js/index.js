@@ -32,7 +32,7 @@ function drawChart(years, temps) {
       labels: years,
       datasets: [
         {
-          label: '# of Votes',
+          label: '# Temperature deviation',
           data: temps,
           backgroundColor: ['rgba(255, 200, 200, 1)'],
           borderColor: ['rgba(255, 130, 255, 1)'],
